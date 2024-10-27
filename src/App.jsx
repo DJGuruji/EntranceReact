@@ -1,5 +1,4 @@
-import { useEffect } from "react";
-import "./App.css";
+import { useEffect } from "react"
 import AdminRouter from "./components/routers/AdminRouter";
 import AuthRouter from "./components/routers/AuthRouter";
 import HomeRouter from "./components/routers/HomeRouter";

@@ -24,8 +24,9 @@ const Timer = ({ onTimeUp }) => {
    const minutes = Math.floor((timeLeft % 3600) / 60);
      const seconds = timeLeft % 60;
   return (
-    <div className="bg-blue-400  text-white text-center rounded-full p-1">
-     <h2 className="p-1 ">Time Left: {hours < 10 ? `0${hours}` : hours}:{minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h2>
+    
+    <div className="bg-black  text-white text-center rounded-full p-1">
+     <h2 className="p-1 "> {hours < 10 ? `0${hours}` : hours}:{minutes < 10 ? `0${minutes}` : minutes}:{seconds < 10 ? `0${seconds}` : seconds}</h2>
    </div>
   );
 };
