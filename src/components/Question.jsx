@@ -58,7 +58,7 @@ const Question = ({ subject }) => {
 
   return (
     <>
-      <div className="flex justify ">
+      <div className="md:flex lg:flex xl:flex">
         <div className="w-3/4 h-full mt-16">
           <h1 className="text-sm ml-5">Question {currentQuestionIndex + 1}</h1>
           <h3 className="text-lg ml-5">{subjectQuestions[currentQuestionIndex].question}</h3>
